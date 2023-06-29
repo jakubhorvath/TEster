@@ -1,0 +1,9 @@
+PyYAML>=3.12
+bcbio-gff>=0.6.4
+biopython>=1.70
+click>=6.7
+networkx>=2.1
+numpy>=1.17
+pyfastx>=0.6.6
+ruamel.yaml>=0.16.10
+scipy>=1.4.1

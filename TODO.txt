@@ -1,0 +1,46 @@
+Should have:
+Refactoring for a simpler parameter extension
+Set the middle of the distribution closer to parameter default or to the value detected during the analysis - Poisson distrib?
+Add user-fixed parameters
+    - Add flag telling the program to create distribution around that value
+Implement multithreading
+Autimatic visualisation of results and iterations in ggplot/matplotlib
+Add parametrs
+	r - PBS detecting threshold
+	E - LTR must have edge signal
+	F - 
+
+
+0. Add parameter -E where element.site_presence is the probability that it will be turned on
+
+3 implement a sensitivity analysis approach into the script
+
+0.2 Implement better accuracy calculation
+
+1. need to implement run_finder.py for case where multiple sequences are in the query fasta === CHECK IF THIS IS FUNCTIONAL
+
+1.2 run_finder.py line 35 fails if multiple sequences are present in the input file
+
+2. decide certain parameter evaluation based on info received while generating testing sequence
+
+3. enable parameter F testing
+
+5. fix output printing on line 78 in parameter_tester - prints the whole dictionary, this is incorrect
+
+6 add no database functionality by detecting elements using repeat masker, TE-nester.... and the elements that overlap are using in the database.
+
+some paths need to be changed to relative, so that they can be chosen by the user
+
+perform analysis on FN or FP transposon
+
+Run analysis in R
+
+
+
+--------------------------------------------------------------------------------------------------
+implement the final analysis of the count.csv files created by detection_region_analyser.py - DONE
+set nester_run.py so that it finds the parameter in the file (so that positions arent necessary) - DONE
+clean up detection_region_analyser.py and its sub-files - DONE
+implement Parameter with element integration - DONE
+Add true positives, false positives and false negatives into the output csv file DONE
+--------------------------------------------------------------------------------------------------
